@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+	<title> Crystals </title>
+	<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	
+	</head>
+		<body>
+		<div id="main">
+			<div class="container">
+				<h1> Crystal Collector by Dima</h1>
+			
+			</div>
+			<br>	
+			<div id="instructions">
+				<ul>
+					<li>The player will be shown a random number at the start of the game.</li>
+					<li>When the player clicks on a crystal it will add a specific amount of points to the player's total score.</li>
+					<li>The player wins the game if their total score matches the random number and the player loses the game if their total score goes above the random number.</li>
+					<li>The amount of points each crystal adds is not shown to the player, but their total score is displayed and updated after each crystal is clicked.</li>
+					<li>The number of games won and lost will be displayed.</li>
+				</ul>	
+				<hr>
+			</div>
+				<div class="wrapper">
+					<div id="numberDiv"><h1></h1></div>
+						<div id="resultsDiv">
+							<p class="who"></p>
+							<p class="wins">Wins : 0</p>
+							<p class="losses">Losses :0</p>
+						</div>	
+				</div>
+					<div id="crystalsDiv">
+						<img src="assets/images/crystal_1.jpg" id="first">
+						<img src="assets/images/crystal_2.jpg" id="second">
+						<img src="assets/images/crystal_3.jpg" id="third">
+						<img src="assets/images/crystal_4.png" id="fourth">
+					</div>
+				<div id="totalDiv"><h3>Your total score is:</h3></div>
+				<div id="priceDiv"></div>
+
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  		<script type="text/javascript" src="assets/javascript/game.js"></script>
+  		</div>		
+		</body>
+	
+
+</html>		

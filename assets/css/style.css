@@ -1,0 +1,104 @@
+body {
+	background: url("../images/back.jpg");
+
+}
+#main {
+	width: 700px;
+	
+	border: 3px dotted red;
+
+	
+}
+.container {
+	max-width: 410px;
+	margin: 10px;
+	float: left;
+	
+}
+.who { 
+	font-size: 22px;
+	color: red;
+	line-height: 20px;
+	
+
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 49px;
+	border: 3px solid #ddd;
+	padding: 10px;
+	
+	color: white;
+	background-color: #cb6f34;
+
+}
+ul {
+	display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+#instructions {
+	clear: left;
+	max-width: 600px;
+	margin: 10px;
+	background-color: #fbe6cf; 
+}
+
+.wrapper {
+    display: inline-block;
+}
+#numberDiv {
+	font-size: 35px;
+	background-color: #53c987;
+	width: 300px;
+	height: 50px;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+#resultsDiv {
+	margin: 10px 10px 10px 340px;
+	padding: 10px;
+
+	background-color: #3afefd;
+	width: 90px;
+	height: 50px;
+	border: 1px solid red;	
+}
+#crystalsDiv {
+	margin-left: 10px;
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+#totalDiv {
+	font-size: 25px;
+	background-color: #1ea397;
+	width: 300px;
+	height: 20px;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+	clear: both;
+}
+#priceDiv {
+	font-size: 35px;
+	background-color: #1ea397;
+	width: 300px;
+	height: 50px;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+}
+footer{
+	padding: 10px;
+	margin: 5px;
+}
